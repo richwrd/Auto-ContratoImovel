@@ -1,16 +1,65 @@
-# Auto-ContratoImovel
+# 📝 Generate Contrato de Venda e Compra
 
-Este projeto é uma aplicação interativa desenvolvida com **Streamlit** para gerar contratos personalizados de compra e venda de imóveis. Ele permite que os usuários preencham formulários com os dados das partes envolvidas, do imóvel, do financiamento e das cláusulas contratuais, gerando um documento `.docx` pronto para uso.
+Bem-vindo ao **Generate Contrato de Venda e Compra**! 🎉 Este projeto foi criado para facilitar a geração de contratos de venda e compra de forma rápida e eficiente. 🚀
 
-## Funcionalidades
-- Interface amigável para entrada de dados.
-- Geração automática de contratos em formato `.docx`.
-- Suporte a placeholders dinâmicos para personalização do contrato.
-- Download direto do contrato gerado.
+## 📋 Requisitos
 
-## Tecnologias Utilizadas
-- Python
-- Streamlit
-- python-docx
-- markdown2
-- weasyprint
+- 🐍 **Python 3.x**: Certifique-se de ter o Python instalado em sua máquina.
+
+## 🛠️ Instruções de Instalação
+
+Siga os passos abaixo para configurar o ambiente e executar a aplicação:
+
+### 1️⃣ Criar Ambiente Virtual
+
+Crie um ambiente virtual para isolar as dependências do projeto:
+
+```bash
+python -m venv .venv
+```
+
+### 2️⃣ Ativar o Ambiente Virtual
+
+Ative o ambiente virtual de acordo com o seu sistema operacional:
+
+**Windows:**
+```bash
+.venv\Scripts\activate
+```
+
+**Linux/Mac:**
+```bash
+source .venv/bin/activate
+```
+
+### 3️⃣ Atualizar o pip
+
+Atualize o gerenciador de pacotes `pip` para a versão mais recente:
+
+```bash
+python -m pip install --upgrade pip
+```
+
+### 4️⃣ Instalar as Dependências
+
+Instale todas as dependências necessárias listadas no arquivo `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5️⃣ Executar a Aplicação
+
+Inicie a aplicação com o comando abaixo:
+
+```bash
+streamlit run .\src\main.py
+```
+
+A aplicação será iniciada e estará disponível no navegador. 🌐
+
+## 💡 Uso
+
+Após iniciar a aplicação, siga as instruções na interface web para gerar os contratos de venda e compra. É simples, rápido e eficiente! ✨
+
+Aproveite! 😄
